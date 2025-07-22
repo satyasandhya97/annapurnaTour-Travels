@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+h2{
+  font-family: "Comforter Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@keyframes spinSlow {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.spin-slow {
+  animation: spinSlow 10s linear infinite;
+}
