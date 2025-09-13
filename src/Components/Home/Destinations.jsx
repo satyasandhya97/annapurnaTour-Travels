@@ -1,18 +1,20 @@
 import React from 'react';
 import tajmahal from "../../assets/Home/Destinations/tajmahal.png";
+import Puri from "../../assets/Home/Destinations/puri.jpeg";
+import TariniTemple from "../../assets/Home/Destinations/TariniTemple.jpg";
 
 const destinations = [
   {
     id: 1,
-    city: "Male",
-    country: "Maldives",
-    image: tajmahal,
+    city: "Puri",
+    country: "Jagannath Temple",
+    image: Puri,
   },
   {
     id: 2,
-    city: "Bangkok",
-    country: "Thailand",
-    image: tajmahal,
+    city: "Jajpur",
+    country: "Tarini Temple",
+    image: TariniTemple,
   },
   {
     id: 3,
