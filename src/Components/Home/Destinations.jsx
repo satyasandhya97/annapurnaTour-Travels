@@ -1,38 +1,40 @@
 import React from 'react';
-import tajmahal from "../../assets/Home/Destinations/tajmahal.png";
-import Puri from "../../assets/Home/Destinations/puri.jpeg";
-import TariniTemple from "../../assets/Home/Destinations/TariniTemple.jpg";
+import image2 from "../../assets/Home/Destinations/image2.jpg";
+import image3 from "../../assets/Home/Destinations/image3.jpg";
+import image4 from "../../assets/Home/Destinations/image4.jpg";
+import image5 from "../../assets/Home/Destinations/image5.webp";
+import image6 from "../../assets/Home/Destinations/image6.webp";
 
 const destinations = [
   {
     id: 1,
     city: "Puri",
     country: "Jagannath Temple",
-    image: Puri,
+    image: image2,
   },
   {
     id: 2,
-    city: "Jajpur",
-    country: "Tarini Temple",
-    image: TariniTemple,
+    city: "Jajpur Road",
+    country: "Ghatagaon Tarini Temple ",
+    image: image3,
   },
   {
     id: 3,
-    city: "Kuala Lumpur",
-    country: "Malaysia",
-    image: tajmahal,
+    city: "puri",
+    country: "Sun Temple in Konark",
+    image: image4,
   },
   {
     id: 4,
-    city: "Kathmandu",
-    country: "Nepal",
-    image: tajmahal,
+    city: "Sambalpur",
+    country: "Hirakud Dam",
+    image: image5,
   },
   {
     id: 5,
-    city: "Bali",
-    country: "Indonesia",
-    image: tajmahal,
+    city: "Bhubaneswar",
+    country: "Dhauligiri",
+    image: image6,
   },
 ];
 

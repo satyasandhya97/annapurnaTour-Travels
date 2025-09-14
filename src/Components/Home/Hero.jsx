@@ -12,7 +12,7 @@ const Hero = () => {
 
         <div className="w-full lg:w-1/2 flex flex-col items-start text-start">
           <h2 className="text-[#f4c200] text-3xl sm:text-4xl md:text-5xl text-start mb-3">
-            🌏 Explore Odisha with Us
+            Explore Odisha with Us
           </h2>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#0d1b2a] mb-6 whitespace-nowrap">
             Trusted Odisha Travel <br /> Agency

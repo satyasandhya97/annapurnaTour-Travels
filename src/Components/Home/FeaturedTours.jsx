@@ -1,6 +1,7 @@
 import React from "react";
 import { Clock, Star } from "lucide-react";
 import tajmahal from "../../assets/Home/Destinations/tajmahal.png";
+import image7 from "../../assets/Home/Destinations/image7.jpg";
 
 
 const tours = [
@@ -11,9 +12,9 @@ const tours = [
         rating: 4,
         reviews: 2,
         description:
-            "A good traveler has no fixed plans and is not intent on arriving.",
-        location: "Kuala Lumpur, Malaysia",
-        image: tajmahal,
+            "Duduma Waterfall is situated in the border of Koraput (Odisha) districts of India. Duduma Waterfall. Duduma Waterfalls is located in Odisha.",
+        location: "Duduma Waterfalls",
+        image: image7,
     },
     {
         id: 2,
@@ -23,7 +24,7 @@ const tours = [
         reviews: 2,
         description:
             "A good traveler has no fixed plans and is not intent on arriving.",
-        location: "Kuala Lumpur, Malaysia",
+        location: "Khirachora Gopinath Temple",
         image: tajmahal,
     },
     {
@@ -61,17 +62,17 @@ const PopularTours = () => {
                                 alt={tour.location}
                                 className="w-full  object-cover"
                             />
-                            <div className="absolute top-3 left-3 bg-yellow-400 text-white text-sm font-semibold px-3 py-1 rounded flex items-center gap-1 shadow">
+                            {/* <div className="absolute top-3 left-3 bg-yellow-400 text-white text-sm font-semibold px-3 py-1 rounded flex items-center gap-1 shadow">
                                 <Clock size={16} />
                                 {tour.duration}
-                            </div>
+                            </div> */}
                         </div>
 
                         <div className="p-4 space-y-2">
                             <div className="flex items-center justify-between">
-                                <span className="bg-[#05c8c8] text-white text-xs font-bold px-2 py-1 rounded">
-                                    From {tour.price}
-                                </span>
+                                {/* <span className="bg-[#05c8c8] text-white text-xs font-bold px-2 py-1 rounded">
+                                    from {tour.price}
+                                </span> */}
                                 <div className="flex items-center text-yellow-400 text-sm">
                                     {Array.from({ length: 5 }, (_, i) => (
                                         <Star
