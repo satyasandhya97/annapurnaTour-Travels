@@ -2,7 +2,8 @@ import React from "react";
 import { Clock, Star } from "lucide-react";
 import tajmahal from "../../assets/Home/Destinations/tajmahal.png";
 import image7 from "../../assets/Home/Destinations/image7.jpg";
-
+import image8 from "../../assets/Home/Destinations/image8.jpg";
+import image9 from "../../assets/Home/Destinations/image9.jpg";
 
 const tours = [
     {
@@ -23,9 +24,9 @@ const tours = [
         rating: 4,
         reviews: 2,
         description:
-            "A good traveler has no fixed plans and is not intent on arriving.",
+            "Duduma Waterfalls is located in the Koraput district of Odisha, near the border of Andhra Pradesh. It is formed by the Machkund River.",
         location: "Khirachora Gopinath Temple",
-        image: tajmahal,
+        image: image8,
     },
     {
         id: 3,
@@ -34,9 +35,9 @@ const tours = [
         rating: 4,
         reviews: 2,
         description:
-            "A good traveler has no fixed plans and is not intent on arriving.",
-        location: "Kuala Lumpur, Malaysia",
-        image: tajmahal,
+            "Lingaraja Temple is a Hindu temple dedicated to Shiva and is one of the oldest temples in Bhubaneswar, the capital of the Indian state of Odisha.",
+        location: "Lingaraj Temple Bhubaneswar",
+        image: image9,
     },
 ];
 
