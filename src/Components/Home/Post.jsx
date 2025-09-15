@@ -8,6 +8,8 @@ import image14 from "../../assets/Home/Destinations/image14.avif";
 import image15 from "../../assets/Home/Destinations/image15.jpg";
 import image16 from "../../assets/Home/Destinations/image16.jpg";
 import image17 from "../../assets/Home/Destinations/image17.jpg";
+import image18 from "../../assets/Home/Destinations/image18.jpg";
+import image19 from "../../assets/Home/Destinations/image19.jpg";
 
 const blogs = [
     {
@@ -70,6 +72,22 @@ const blogs = [
         time: "10:30 AM",
         date: "04 Dec",
         image: image17,
+    },
+    , {
+        id: 9,
+        title: "Nabadwip also spelt Navadwip, historically known as Nadia, is a heritage city in Nadia district in the Indian state of West Bengal.",
+        author: "Jony bristow",
+        time: "10:30 AM",
+        date: "04 Dec",
+        image: image18,
+    },
+    , {
+        id: 10,
+        title: "Bhitarkanika is a national park and one of India's largest mangrove ecosystems in the Kendrapara district of Odisha, India, known for its extensive network of creeks, rivers, and diverse wildlife.",
+        author: "Jony bristow",
+        time: "10:30 AM",
+        date: "04 Dec",
+        image: image19,
     },
 ];
 

@@ -9,7 +9,7 @@ const AboutSection = () => {
       <div className="w-full lg:w-1/2 space-y-6">
         <h2 className="text-[#f4c200] text-3xl sm:text-4xl md:text-5xl">About Us</h2>
         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#0d1b2a] lg:whitespace-nowrap">
-          Explore the world with Odisha Travels <br className="hidden lg:flex" /> where every journey becomes a story.
+          Explore the world with Odisha <br className="hidden lg:flex" /> Travels where every journey <br className="hidden lg:flex" />  becomes a story.
         </h1>
         <p className="text-[#878787] leading-7 text-base sm:text-lg">
           At Odisha Travels, we believe traveling is not just about reaching a destination, it’s about discovering experiences, cultures, and memories that last a lifetime. Whether you dream of relaxing on golden beaches, exploring heritage temples, or enjoying breathtaking adventures, we make sure your trip is seamless and unforgettable.
@@ -59,7 +59,7 @@ const AboutSection = () => {
       </div>
 
       <div className="w-full lg:w-1/2">
-        <img src={AboutUs} alt="Travel" className="w-full h-auto object-cover" />
+        <img src={AboutUs} alt="Travel" className="w-full h-auto object-cover lg:mt-45" />
       </div>
     </div>
   );
