@@ -23,17 +23,14 @@ const Hero = () => {
               +91 90908 09910
             </a>
           </div>
-          <p className="text-[#666] text-lg mb-6 max-w-md">
-            Experience unparalleled comfort and reliability with The Esplanade Cab. Our dedicated team ensures that your journey is smooth and stress-free, whether you're navigating the city streets or embarking on a long-distance adventure. Trust us to get you where you need to go, safely and on time.</p>
-          <p className='text-[#666] text-lg mb-6 max-w-md'>Bhubaneswar, Odisha</p>
-          <div className="flex flex-row justify-center lg:justify-start gap-4">
-            <button className="bg-[#05c8c8] text-white font-bold py-2 px-6 rounded-md shadow hover:bg-white hover:text-[#05c8c8] hover:border-[#05c8c8] border transition">
-              Contact Us: 918895072433
-            </button>
-            {/* <button className="border-gray-300 text-[#0d1b2a] font-semibold py-2 px-6 rounded-md hover:text-[#05c8c8] hover:border-[#05c8c8] border transition">
+          <p className="text-[#666] text-lg mb-8 max-w-md">
+            At Odisha Travels, we believe every journey should be more than just a trip it should be an unforgettable experience. From the golden beaches of Puri, the architectural wonder of Konark Sun Temple, to the spiritual serenity of Jagannath Dham, Odisha offers a blend of culture, history, spirituality, and natural beauty.
+          </p>
+          {/* <div className="flex flex-row justify-center lg:justify-start gap-4">
+            <button className="border-gray-300 text-[#0d1b2a] font-semibold py-2 px-6 rounded-md hover:text-[#05c8c8] hover:border-[#05c8c8] border transition">
               Learn More
-            </button> */}
-          </div>
+            </button>
+          </div> */}
         </div>
 
         <div className="w-full lg:w-1/2 flex justify-center relative">

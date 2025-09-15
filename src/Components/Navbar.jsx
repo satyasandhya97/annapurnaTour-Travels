@@ -34,13 +34,10 @@ const Navbar = () => {
 
     return (
         <nav className="bg-[#05c8c8] text-white px-3 md:px-20 xl:px-52 py-7 flex justify-between items-center relative">
-            <div className="">
-                <h1 className="flex text-2xl md:text-3xl font-bold">
-                    Arnapurna <span className="text-[#ffd900]">Tour & Travels</span>
-                </h1>
-                <p className='flex-1 text-black text-lg'> Jajpur , Odisha</p>
+            <h1 className="flex text-2xl md:text-3xl font-bold">
+                Arnapurna <span className="text-[#ffd900]">Tourists</span>
+            </h1>
 
-            </div>
 
             <ul className="hidden xl:flex items-center gap-8 font-semibold">
                 {navItems.map((item, index) => (
